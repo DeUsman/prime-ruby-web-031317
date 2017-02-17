@@ -1,4 +1,14 @@
-# Add  code here!
+=begin
+def prime?(number)
+ arr = (2...number).to_a
+ arr.each do |x|
+   if number % x == 0
+    return false
+   end
+  end
+  return true
+end
+=end
 def prime?(number)
   if number <= 2
     return false
